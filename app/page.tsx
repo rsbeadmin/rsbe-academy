@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
-import { Trophy, Smartphone, TrendingUp, ArrowRight, Instagram, Music, HelpCircle } from 'lucide-react'
+// Ganti baris 3 dengan ini (Kita buang Instagram, Music, & HelpCircle buat sementara)
+import { Trophy, Smartphone, TrendingUp, ArrowRight } from 'lucide-react'
 
 export default function RSBEAcademy() {
   const [formData, setFormData] = useState({
@@ -146,10 +147,10 @@ export default function RSBEAcademy() {
         </p>
         
         <div className="flex justify-center gap-8 text-slate-400 text-xs font-bold uppercase tracking-widest mb-16">
-          <a href="#" className="hover:text-white transition">Instagram</a>
-          <a href="#" className="hover:text-white transition">TikTok</a>
-          <a href="#" className="hover:text-white transition">Contact Support</a>
-        </div>
+  <a href="#" className="hover:text-white transition">Instagram</a>
+  <a href="#" className="hover:text-white transition">TikTok</a>
+  <a href="#" className="hover:text-white transition">Contact Support</a>
+</div>
 
         <div className="text-[10px] text-slate-600 uppercase tracking-[0.2em]">
           © 2024 RSBE Badminton Academy. All Rights Reserved.
