@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import { Trophy, Smartphone, TrendingUp, ArrowRight, Instagram, Music2, LifeBuoy } from 'lucide-react'
+import { Trophy, Smartphone, TrendingUp, ArrowRight, Instagram, Music, HelpCircle } from 'lucide-react'
 
 export default function RSBEAcademy() {
   const [formData, setFormData] = useState({
