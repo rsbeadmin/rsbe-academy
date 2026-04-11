@@ -4,3 +4,6 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[patched_nextjs_runtime]
+  handle_external_scripts = true
