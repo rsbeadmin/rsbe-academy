@@ -36,7 +36,7 @@ export default function RSBEApp() {
       {view === 'LOGIN' && (
         <LoginPage 
           onBack={() => setView('LANDING')} 
-          onSuccess={() => handleLoginSuccess(Role.CLIENT)} 
+          onSuccess={() => handleLoginSuccess()}
         />
       )}
 
