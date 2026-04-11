@@ -15,7 +15,3 @@ export const DEFAULT_LANDING_CONTENT: LandingPageContent = {
     "Stadium Alpha", "Kuala Lumpur Central", "Selangor Sports Complex"
   ]
 };
-
-// Kita buang MOCK_STUDENTS, MOCK_APPLICATIONS, dan TRANSACTIONS 
-// sebab kita dah tak guna data statik ni lagi.
-// Ini akan terus hilangkan semua ralat merah!
